@@ -1,0 +1,99 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: ghostwhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: ghostwhite;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #3048cf;
+  color: white;
+}
+.gg h1 {font-size: 50px; font-family: sans-serif;}
+
+.gg1 h1{color: #fafefb;background-color: black; margin-left: 450px; margin-right: 450px; padding: 5px;}
+
+.footer a {
+  float: center;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: -5px -5px;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+
+{
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #whitesmoke;
+  color: black;
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #black;
+}
+
+/* Style the container/contact section */
+.container {
+  /*border-radius: 5px;*/
+  float: center;
+  background-color: #black;
+  color: grey;
+  /*padding: 10px;*/
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: center;
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    color: black;
+  }
+}
